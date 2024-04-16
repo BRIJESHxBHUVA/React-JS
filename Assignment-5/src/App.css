@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+  height: auto;
+  width: 100%;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 30px;
+  /* row-gap: 30px; */
+  place-items: center;
+  background-color: burlywood;
+}
+
+.box {
+  height: 400px;
+  width: 400px;
+  border: 1px solid white;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.box img {
+  height: 250px;
+  width: 75%;
+  border-radius: 12px;
+  transition: 0.7s ease-in-out;
+  transform: rotate(90deg);
+  transform-origin: top left;
+}
+
+.box:hover img{
+  transform: scale(110%);
+  transform: rotate(0deg);
+}
+
+.box p {
+  margin: 20px 0px;
+  color: white;
+  z-index: 2;
+  width: auto;
+  border-radius: 20px;
+  background-color: chocolate;
+  padding: 0px 5px;
+}
+
+.box h3 {
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  background-color: cadetblue;
+  color: white;
+  text-decoration: underline orange 3px;
+  position: sticky;
+  top: 0;
+  margin: 28px 0px;
+  height: 70px;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  /*    
+      font-family: "Aladin", system-ui;
+      font-weight: 400;
+      font-style: normal;
+     */
+  letter-spacing: 3px;
+  z-index: 3;
+}
+
+h1 span {
+  font-size: 30px;
+
+  font-family: "Aladin", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.color{
+  height: auto;
+  width: auto;
+  position: absolute;
+  right: 1%;
+  margin: 15px 0px;
+}
+
+.boxcolor{
+  height: auto;
+  width: auto;
+  position: absolute;
+  right: 3%;
+  margin: 15px 0px;
+}
+
+input{
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  border: none;
+  outline: none;
+}
+
+
+@media only screen and (max-width: 720px) {
+
+  .boxcolor{
+    right: 1%;
+    margin: 38px 0px;
+  }
+
+  .color{
+    margin: 0px 0px;
+  }
+
+}
