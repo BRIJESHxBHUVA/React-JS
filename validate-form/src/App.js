@@ -1,11 +1,13 @@
-import logo from './logo.svg';
+
 import './App.css';
 import ValidForm from './ValidForm';
+
 
 function App() {
   return (
     <div className="App">
      <ValidForm/>
+
     </div>
   );
 }
