@@ -22,7 +22,7 @@ const Counter = (state = DefaultState, action)=> {
             return{
 
                 ...state,
-                count: state.count - 1,
+                count: state.count > 0 ? state.count - 1 : state.count,
                 
 
         }
