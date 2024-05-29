@@ -1,0 +1,103 @@
+.home{
+    height: 120vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.home-title {
+    height: 150px;
+    width: 69.10%;
+    /* border: 1px solid black; */
+    display: grid;
+    place-items: center;
+}
+.home-title h1{
+    font-size: 45px;
+    color: white;
+}
+.home-contact{
+    height: 700px;
+    width: 69.10%;
+    /* border: 1px solid black;  */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.home-contact-reply{
+    height: 662px;
+    width: 877px;
+    /* border: 1px solid black;  */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    background-color: rgb(25,22,24);
+    border-radius: 10px;
+    color: white;
+}
+.home-contact-details{
+    width: 427px;
+    height: 662px;
+    /* border: 1px solid black;  */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(25,22,24);
+    border-radius: 10px;
+    color: white;
+}
+.home-contact-reply h3{
+    font-size: 35px;
+    margin: 0px 40px;
+}
+.home-contact-reply p{
+    margin: 0px 40px;
+}
+.home-contact-reply input{
+    margin: 0px 40px;
+    height: 60px;
+    width: 758px;
+    border-radius: 10px;
+    /* border: none; */
+    background-color: rgb(29,29,29);
+    border: none;
+}
+.home-contact-reply textarea{
+    height: 156px;
+    width: 758px;
+    border-radius: 10px;
+    margin: 0 40px;
+    background-color: rgb(29,29,29);
+    border: none;
+}
+.home-contact-reply button{
+    height: 64px;
+    width: 250px;
+    margin: 0 40px;
+    background-color: #c9f31d;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+}
+.home-contact-details-mail, .home-contact-details-phone, .home-contact-details-address{
+    height: 127px;
+    width: 365px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    background-color: rgb(29,29,29);
+}
+
+.home-contact-details-mail h5, p, .home-contact-details-phone h5, p, .home-contact-details-address h5, p{
+    margin: 0 30px;
+}
+.home-contact-details h3{
+    margin: 0 30px;
+}

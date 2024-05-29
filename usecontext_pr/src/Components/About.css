@@ -1,0 +1,96 @@
+.about{  
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.about-text{ 
+    height: auto;
+    width: 69.10%;
+    /* border: 1px solid black; */
+    margin: 40px 0;
+}
+
+.about-text p{
+    font-size: 42px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.about-box{
+    height: 635px;
+    width: 69.10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 1px solid black; */
+    background-color: rgb(23,23,22);
+}
+.about-box-img, .about-box-info{
+    height: 100%;
+    width: 45%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ .about-box-info{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.about-box-info-title{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.about-box-info-title h3{
+    margin: 0px 30px;
+    font-weight: 500;
+    font-size: 40px;
+}
+.about-box-info-title p{
+    margin: 20px 30px;
+}
+.about-box-info-details{
+    width: 100%;
+    height: 350px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.about-box-info-details-box1, .about-box-info-details-box2{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    width: 100%;
+}
+.about-box-info-details-mail, .about-box-info-details-phone, .about-box-info-details-address, .about-box-info-details-social{
+    height: 150px;
+    width: 315px;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    background-color: rgb(29,29,29);
+    color: white;
+}
+.about-box-info-details-mail h4, p, .about-box-info-details-phone h4, p, .about-box-info-details-address h4, p, .about-box-info-details-social h4, p {
+    margin: 0 20px;
+    font-size: 22px;
+}
