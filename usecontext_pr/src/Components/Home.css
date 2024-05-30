@@ -50,6 +50,18 @@
     border-radius: 10px;
     color: white;
 }
+input{
+    padding-left: 15px;
+}
+textarea
+{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+::placeholder{
+    color: white;
+ 
+}
 .home-contact-reply h3{
     font-size: 35px;
     margin: 0px 40px;
