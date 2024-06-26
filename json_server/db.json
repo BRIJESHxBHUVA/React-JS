@@ -1,5 +1,52 @@
 {
   "StoredData": [
-    
+    {
+      "id": "6084",
+      "image": "blob:http://localhost:3000/4cb93842-aa9d-4dde-96a6-99df88c520d8",
+      "title": "Jewllery",
+      "price": "250000"
+    },
+    {
+      "id": "62d2",
+      "image": "blob:http://localhost:3000/47dfc081-96ef-47a9-9f7f-669342ba6b1b",
+      "title": "Necklace",
+      "price": "350000"
+    },
+    {
+      "id": "e850",
+      "image": "blob:http://localhost:3000/f1fb0d1c-cf77-405d-b669-7079ad371d34",
+      "title": "Diamond Necklace",
+      "price": "1500000"
+    },
+    {
+      "id": "6065",
+      "image": "blob:http://localhost:3000/c8154043-0dfc-47c9-95dd-4f6ac33386e4",
+      "title": "Ear Wear",
+      "price": "125000"
+    },
+    {
+      "id": "cac9",
+      "image": "blob:http://localhost:3000/7c19eeaa-0518-490e-a4c1-6b23997fa6ce",
+      "title": "Jewllery",
+      "price": "350000"
+    },
+    {
+      "id": "951c",
+      "image": "blob:http://localhost:3000/8aadcc24-03ad-4eb6-9484-bebf38ff61c9",
+      "title": "Necklace",
+      "price": "12000000"
+    },
+    {
+      "id": "b100",
+      "image": "blob:http://localhost:3000/382b9d2f-aa45-411d-bfea-ef67eb2866f0",
+      "title": "Ear Wear",
+      "price": "150000"
+    },
+    {
+      "id": "062a",
+      "image": "blob:http://localhost:3000/76c90104-3aa0-4ba5-8d18-fb61026ffc94",
+      "title": "Ear Wear",
+      "price": "200000"
+    }
   ]
 }

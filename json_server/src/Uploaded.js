@@ -18,7 +18,7 @@ const Uploaded = ({ apiData, setApiData }) => {
 
                     <div className="add" title='Add New Product' >
                     <Link to='/' >
-                        <i className="fa fa-plus-circle" aria-hidden="true"></i>
+                        <i class="fa fa-plus-circle" aria-hidden="true"></i>
                         &nbsp; Add
                         </Link>
                     </div>

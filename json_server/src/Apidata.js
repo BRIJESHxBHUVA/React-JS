@@ -22,7 +22,7 @@ const Apidata = ({ apiData, setApiData }) => {
 
     useEffect(() => {
 
-        axios.get('http://localhost:5000/StoredData')
+        axios.get('http://localhost:7000/StoredData')
             .then((res) => { setApiData(res.data) })
             .catch((err) => {
                 console.log(err, 'Error coming when data is fetched.')
@@ -48,11 +48,12 @@ const Apidata = ({ apiData, setApiData }) => {
 
     const handleSubmit = (e) => {
 
-        axios.post('http://localhost:5000/StoredData', data)
+        e.preventDefault();
+
+        axios.post('http://localhost:7000/StoredData', data)
             .then((res) => {
                 console.log(res)
                 setApiData([...apiData, res.data])
-                console.log('Submit :',apiData)
             })
             .catch((err) => {
                 console.log(err, 'Error coming when data is set to json format')
@@ -67,7 +68,7 @@ const Apidata = ({ apiData, setApiData }) => {
 
     }
 
-
+    console.log(data.title)
 
     return (
         <>
