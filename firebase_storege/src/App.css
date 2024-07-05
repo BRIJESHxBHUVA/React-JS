@@ -26,7 +26,7 @@ form{
     flex-direction: column;
     align-items: center;
     padding: 15px 25px;
-   
+    position: relative;
 }
 
 input{
@@ -54,4 +54,31 @@ button{
     border: none;
     border-radius: 8px;
     margin: 10px 0px;
+}
+
+table{
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #000;
+    color: white;
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.eye{
+    position: absolute;
+    top: 61%;
+    left: 85%;
+    border-radius: 50%w;
+}
+
+.eye i{
+    color: white;
 }
