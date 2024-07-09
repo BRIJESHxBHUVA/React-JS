@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { onValue, ref, set } from 'firebase/database'
+import { onValue, ref, set, remove } from 'firebase/database'
 import { database } from './Config'
 
 const Firebase = () => {
@@ -25,6 +25,13 @@ const Firebase = () => {
     else{
       setWatch(false)
       }
+  }
+
+
+  const handleDelete = (index)=> {
+    const Data = ref(database, `UserData/${index}`)
+    remove(Data)
+
   }
 
   useEffect(() => {
@@ -69,7 +76,7 @@ const Firebase = () => {
           <input type={watch === false ? "password" : 'text'} placeholder='Enter password' value={password} onChange={(e) => setPassword(e.target.value)} />
           <div className="eye">
             {
-              watch === false ? <i className="fa fa-eye" onClick={ManagePassword} /> :    <i class="fa-solid fa-eye-slash" onClick={ManagePassword}></i>           
+              watch === false ? <i className="fa fa-eye" onClick={ManagePassword} /> :    <i className="fa-solid fa-eye-slash" onClick={ManagePassword}></i>           
 
             }
           </div>
@@ -85,6 +92,7 @@ const Firebase = () => {
             <th>ID</th>
             <th>Email Id</th>
             <th>Password</th>
+            <th>Remove</th>
           </tr>
 
         </thead>
@@ -96,6 +104,7 @@ const Firebase = () => {
                 <td>{data.id}</td>
                 <td>{data.email}</td>
                 <td>{data.password}</td>
+                <td onClick={()=>handleDelete(data.id)}><i className="fa-solid fa-trash"></i></td>
 
               </tr>
 
