@@ -1,0 +1,24 @@
+.main{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+.home{
+    height: 100%;
+    width: 75%;
+    /* border: 1px solid black; */
+    /* position: relative; */
+}
+
+
+@media only screen and (max-width: 1500px){
+  
+   .home{
+    width: 100%;
+   }
+    
+   }
