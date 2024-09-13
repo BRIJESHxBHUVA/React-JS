@@ -1,0 +1,65 @@
+.main{
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.calendar{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1.5px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.days .today{
+    background-color: green;
+    color: white;
+}
+.selected{
+    background-color: green;
+    color: white;
+}
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: green;
+    color: whitesmoke;
+}
+.header button{
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    background: none;
+    font-weight: bold;
+    color: white;
+}
+.week{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.days-name, .day{
+    width: 14.25%;
+    padding:10px 0px;
+    text-align: center;
+    color: black;
+    border-radius: 8px;
+}
+.day:hover{
+    background-color: #ccc;
+}
+.days{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
